@@ -1,0 +1,27 @@
+{
+  "name": "fioparse",
+  "version": "1.0.0",
+  "description": "Convert fio terse output to csv",
+  "main": "lib/index.js",
+  "bin": {
+    "fioparse": "./bin/fioparse"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geek/fioparse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPLv2",
+  "bugs": {
+    "url": "https://github.com/geek/fioparse/issues"
+  },
+  "homepage": "https://github.com/geek/fioparse#readme",
+  "dependencies": {
+    "read-last-lines": "^1.7.2",
+    "split2": "^3.1.1"
+  }
+}
