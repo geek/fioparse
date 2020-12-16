@@ -5,7 +5,7 @@ Convert fio [terse](https://fio.readthedocs.io/en/latest/fio_doc.html) output to
 
 First, create a fio output file that uses the `--minimal` or terse output mode.
 It is also recommended that this file was generated with a fio argument for
-`--status-interval=` argument set so that there is output at every output.
+`--status-interval=` argument set so that there is output at every interval.
 
 Convert the output file to a csv by running
 
